@@ -1,0 +1,82 @@
+/* 
+Plugin Name: yCyclista
+Plugin URI: http://www.social-ink.net
+Version: 1.2.3
+Author: <a href="http://yreinberg.net/">Yonatan Reinberg</a>
+Description: Simple plugin to replace WP gallery with <a href="http://www.malsup.com/jquery/cycle/">JQCycle</a>. Validates fully... and stuff. <a href="http://social-ink.net/blog">Plugin homepage</a>
+ 
+Copyright 2010/11  Yonatan Reinberg (email : yoni [a t ] s o cia l-ink DOT net)
+*/
+
+#ycyclista_frame {
+	
+}
+
+	#ycyclista_image_gallery {
+	
+	}
+
+	/* IMAGE CLASSES */
+	
+		.yc_images {
+		
+		}
+	
+		.yc_img_fullsize {
+			display:none;
+		}		
+		
+		.yc_img_thumbs {
+		
+		}
+		
+	/* THUMBNAIL CLASSES */
+	
+	ul#yc_thumbnail_frame {
+
+	}	
+			
+		#yc_thumbnail_frame li {
+			display:inline;
+		}
+		
+		#yc_thumbnail_frame li a {
+
+		}		
+		
+		#yc_thumbnail_frame li a img {
+
+		}
+		
+	/* NAV CLASSES */
+	
+	#yc_nav {
+	
+	}	
+		a#yc_prev {
+		
+		}		
+		
+		a#yc_next {
+		
+		}
+		
+	/*FANCY CAPTIONS */
+		
+	.yc_captions_fancy {
+		background:url("images/caption_background.png") repeat scroll 0 0 transparent;
+		height:30px;
+		margin-top:-50px;
+		padding-bottom:10px;
+		padding-top:10px;
+		padding-right:50px;
+		position:relative;
+		z-index:100;
+	}
+	
+		.yc_captions_fancy p {
+			font-size:12px;
+			color:white;
+			font-style:italic;
+			text-align:right;
+		}
